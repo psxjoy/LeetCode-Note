@@ -12,7 +12,7 @@ class Solution {
         if (nums.length <= 2) {
             return false;
         }
-        int min = nums[0];`
+        int min = nums[0];
         for (int j = 1; j < nums.length; j++) {
             for (int k = nums.length - 1; k > j; k--) {
                 if (min < nums[k] && nums[k] < nums[j]) {
